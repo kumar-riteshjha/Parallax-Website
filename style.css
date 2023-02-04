@@ -1,0 +1,140 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(picture1.jpg);
+    min-height: 100%;
+    
+}
+.pimg2{
+    background-image: url(picture2.jpg);
+    min-height: 400px;
+    
+}
+.pimg3{
+    background-image: url(picture3.jpg);
+    min-height: 400px;
+    
+}
+.pimg4{
+    background-image: url(picture4.jpg);
+    min-height: 650px;
+    
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+
+}
+.ptext1{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 3px #000000;
+    
+
+}
+
+.ptext2{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 3px #000000;
+
+}
+.ptext3{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 3px #000000;
+
+}
+.ptext4{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: rgb(94, 180, 208);
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform:lowercase;
+    color: white;
+   
+
+}
+
+.textbg{
+    background: rgb(255, 255, 255);
+    color: rgb(200, 118, 63);
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+.textbg01{
+    background: rgb(192, 255, 170);
+    color: rgb(13, 170, 227);
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+
+.section{
+    padding: 40px 70px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+    
+}
+.section-light1{
+    background-color:rgb(246, 246, 246);
+    color: rgb(32, 30, 30);
+
+}
+.section-light2{
+    background-color:rgb(246, 246, 246);
+    color: rgb(32, 30, 30);
+
+}
+.section-light3{
+    background-color:rgb(246, 246, 246);
+    color: rgb(32, 30, 30);
+
+}
+
+.text-justify{
+    text-align: justify;
+}
